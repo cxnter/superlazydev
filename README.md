@@ -11,7 +11,7 @@ This repository is intended to grow: add each new skill as its own directory und
 From the root of the project where you want to use the skill, install it for Codex with:
 
 ```sh
-npx skills add buildwithx/superlazydev --skill your-skill-name --agent codex
+npx skills add bobbie-xos/superlazydev --skill your-skill-name --agent codex
 ```
 
 Replace `your-skill-name` with the skill you want to install; for example, use `frontend-engineer` to install this repository's frontend skill. This installs the skill in the project's `.agents/skills/` directory. Use `'*'` to install every skill in this repository. Add `--global` to install the skill for your user account instead of the current project. The [`skills` CLI](https://github.com/vercel-labs/skills) requires Node.js and npm.
